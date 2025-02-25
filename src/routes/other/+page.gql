@@ -1,0 +1,8 @@
+query OtherData {
+  Genres(limit: 10) {
+    docs {
+      id
+      Name
+    }
+  }
+}

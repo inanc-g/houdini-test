@@ -1,0 +1,9 @@
+query MyData {
+	Buddies(limit: 10) {
+		docs {
+			id
+			Vorname
+			Nachname
+		}
+	}
+}

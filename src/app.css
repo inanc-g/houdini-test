@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:focus-visible {
+		outline: none;
+	}
+}
+
+@layer components {
+	* {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		@apply appearance-none;
+	}
+
+	*::-webkit-scrollbar {
+		display: none;
+	}
+
+	h1,
+	h2,
+	h3 {
+		@apply mb-2;
+	}
+}
